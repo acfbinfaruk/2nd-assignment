@@ -1,0 +1,154 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* common styles */
+
+/* ---
+    top-section styles
+---- */
+.container-header, .container-main{
+    margin: 40px 80px;
+    border-radius: 10px;
+}
+.top-banner{
+    background-color: #161616;
+    display: flex;
+    border: 0px;
+    border-radius: 30px;
+    padding: 30px 60px 0px;
+    color: #fff;
+}
+.header-info {
+    margin-right: 40px;
+}
+.section-title{
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 80px;
+    margin-bottom: 20px;
+}
+.header-info p{
+    line-height: 26px;
+    margin-bottom: 30px;
+}
+.live-button{
+    background-color: #fff;
+    color: #b40101;
+    text-decoration: none;
+    padding: 16px 25px;
+    border-radius: 8px;
+}
+.live-button:hover{
+    background-color: #b40101;
+    color: #fff;
+}
+.live-button i{
+    padding-left: 15px;
+}
+
+.section-img img{
+    width: 550px;
+    padding-top: 30px;
+}
+/* -----------
+    main section styles
+--------- */
+.container-main{
+    display: flex;
+    justify-content: space-between;
+}
+.menu{
+
+    width: 270px;
+    height: 270px;
+    border-radius: 10px;
+    background-color: #161616;
+}
+.buttons{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 30px;
+    padding-top: 8%;
+}
+.button{    
+    border-radius: 8px;
+    width: 235px;
+    padding: 16px 0px;
+    background-color: #fff;
+    text-align: center;
+}
+.button a{
+    text-decoration: none;
+    color: #161616;
+}
+.button.clicked{
+    background-color: #b40101;
+}
+.button.clicked a{
+    color: #ffffff;
+}
+
+.blogs{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+}
+.blog{
+    border: 0.5px solid #777777;
+    border-radius: 10px;
+    width: 270px;
+}
+.blog-img img{
+    width: 100%;
+}
+.img-title{
+    display: inline-block;
+    font-size: 12px;
+    margin-left: 10px;
+    padding: 2px 4px;
+    border: 1px solid #777777;
+    border-radius: 5px;
+}
+.headlines{
+    font-weight: 600;
+    margin-left: 10px;
+}
+.blog-footer{
+    display: flex;
+    column-gap: 25px;
+    margin-left: 10px;
+    font-size: 12px;
+}
+/*-------
+     footer section styles
+-------- */
+.container-footer{
+    background-color: #161616;
+}
+.footer{
+    color: #ffffff;
+    font-size: 35px;
+    font-weight: 600;
+    padding-top: 7%;
+    text-align: center;
+}
+.container-footer hr{
+    border: 1px solid #ffffff1a;
+    width: 80%;
+}
+.links{
+    display: flex;
+    justify-content: space-around;
+    padding: 5% 25%;
+}
+.link a{
+    font-size: 12px;
+    text-decoration: none;
+    color: #B9B9B9;
+}
