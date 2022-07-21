@@ -134,6 +134,7 @@ body{
     display: inline-block;
     font-size: 12px;
     margin-left: 10px;
+    margin-bottom: 15px;
     padding: 2px 4px;
     border: 1px solid #777777;
     border-radius: 5px;
@@ -141,12 +142,14 @@ body{
 .headlines{
     font-weight: 600;
     margin-left: 10px;
+    margin-bottom: 15px;
 }
 .blog-footer{
     display: flex;
     column-gap: 25px;
     margin-left: 10px;
     font-size: 12px;
+    margin-bottom: 15px;
 }
 .view-all-button{
     display: none;
