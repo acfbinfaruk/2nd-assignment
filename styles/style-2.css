@@ -134,10 +134,12 @@ body{
 }
 .match-schedule{
     border: none;
+    margin-bottom: 15px;
 }
-.headlines,.match-title{
+.match-title{
     font-weight: 600;
     margin-left: 10px;
+    margin-bottom: 15px;
 }
 .view-all-button{
     display: none;
