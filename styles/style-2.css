@@ -102,7 +102,7 @@ body{
     border-radius: 8px;
     width: 235px;
     padding: 16px 0px;
-    background-color: #fff;
+    background-color: #ffffff;
     text-align: center;
 }
 .button a{
@@ -116,37 +116,28 @@ body{
     color: #ffffff;
 }
 
-.blogs{
+.matches{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 15px;
     width: 100%;
+    text-align: center;
 }
-.blog{
+.match{
     border: 0.5px solid #777777;
     border-radius: 15px;
     width: 100%;
 }
-.blog-img img{
-    width: 100%;
+.flags{
+    width: 80%;
+    margin: 20px auto;
 }
-.img-title{
-    display: inline-block;
-    font-size: 12px;
-    margin-left: 10px;
-    padding: 2px 4px;
-    border: 1px solid #777777;
-    border-radius: 5px;
+.match-schedule{
+    border: none;
 }
-.headlines{
+.headlines,.match-title{
     font-weight: 600;
     margin-left: 10px;
-}
-.blog-footer{
-    display: flex;
-    column-gap: 25px;
-    margin-left: 10px;
-    font-size: 12px;
 }
 .view-all-button{
     display: none;
@@ -228,7 +219,7 @@ body{
         flex-direction: row;
         justify-content: space-around;
     }
-    .blogs{
+    .matches{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         gap: 25px;
@@ -284,9 +275,9 @@ body{
         height: fit-content;
         padding: 0px;
         margin-bottom: 8%;
-        background-color: #ffffff;
+        background-color: #fff;
     }
-    .blogs{
+    .matches{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         gap: 25px;
