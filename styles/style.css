@@ -45,9 +45,9 @@ body{
 }
 .section-text{
     line-height: 1.5;
-    margin-bottom: 20px;
 }
 .live-button{
+    position: absolute;
     background-color: #ffffff;
     color: #b40101;
     text-decoration: none;
